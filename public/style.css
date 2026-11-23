@@ -1,0 +1,9 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+#pick-card {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+}

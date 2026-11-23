@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>音声ピッキング</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>音声ピッキング</h1>
+    <div id="pick-card">読込中</div>
+
+    <button id="speak-btn">読み上げ</button>
+
+    <input id="check-digit" placeholder="チェック番号" />
+    <button id="check-btn">確認</button>
+
+    <button id="voice-check-btn">音声確認</button>
+    <div id="voice-result"></div>
+
+    <input id="barcode-input" placeholder="バーコード" />
+    <button id="barcode-check-btn">商品確認</button>
+
+    <div id="reader"></div>
+    <div id="scan-result"></div>
+    <button id="start-scan-btn">スキャン開始</button>
+
+    <button id="complete-btn">完了</button>
+
+    <script src="https://unpkg.com/html5-qrcode"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
