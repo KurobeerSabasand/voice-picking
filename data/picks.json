@@ -6,6 +6,6 @@
     "barcode": "4901234567890",
     "product": "ペットボトル",
     "qty": 3,
-    "status": "completed"
+    "status": "waiting"
   }
 ]
